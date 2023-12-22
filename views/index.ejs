@@ -6,6 +6,12 @@
 </head>
 <body>
   <h1><%= title %></h1>
+  
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" accept="image/*">
+    <button type="submit">Upload Image</button>
+  </form>
+
   <ul>
     <% if (data && data.results && data.results.length > 0) { %>
       <% data.results.forEach(character => { %>

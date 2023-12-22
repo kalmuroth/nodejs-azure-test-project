@@ -23,7 +23,7 @@ You will then be able to access it at localhost:3000 via HTTP request.
 
 ## Manipulation
 
-### [Part I : Create A VM](manip/CreateVm.md)
+### [Part I : Create A VM](manip/CreateVM.md)
 
 ### [Part II : Create A Bucket (+ Static Website)](manip/CreateBucket.md)
 

@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title><%= title %></title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
-  <!-- Add any necessary CSS styles here -->
 </head>
 <body>
   <h1><%= title %></h1>
-  <% if (data && data.results && data.results.length > 0) { %>
-    <ul>
+  <ul>
+    <% if (data && data.results && data.results.length > 0) { %>
       <% data.results.forEach(character => { %>
-        <li><%= character.name %> - Height: <%= character.height %>, Mass: <%= character.mass %></li>
-        <!-- Add more details as needed -->
+        <li>
+          Name: <%= character.name %>, 
+          Height: <%= character.height %>, 
+          Mass: <%= character.mass %>
+        </li>
       <% }); %>
-    </ul>
-  <% } else { %>
-    <p>No data available.</p>
-  <% } %>
+    <% } else { %>
+      <li>No data available</li>
+    <% } %>
+  </ul>
 </body>
 </html>

@@ -1,6 +1,10 @@
 # Small Azure Sandbox Project (Node Webapp)
 
-Discovering Microsoft Azure Cloud Computing Services + Small Project
+Discovering Microsoft Azure Cloud Computing Services + Small Project (Upload Image, Third API Call, Multiple Trigger...)
+
+App Service : https://nodejs-app-student-iot-2023-h3hitema.azurewebsites.net/
+
+Front Door (CDN) : https://nodejs-frontend-student.azurefd.net
 
 ## Architecture
 
@@ -48,3 +52,7 @@ You will then be able to access it at localhost:3000 via HTTP request.
 ### [Part X : Set Up Auto-Scaling](manip/AutoScaling.md)
 
 ## Manipulation (Part 2 : Small Project)
+
+### [Part I : Azure Cloud Function](manip/SecondFunction.md)
+
+### [Part II : Azure Front Door](manip/FrontDoor.md)

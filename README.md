@@ -1,6 +1,10 @@
 # Small Azure Sandbox Project (Node Webapp)
 
-Discovering Microsoft azure cloud computing services + Small project
+Discovering Microsoft Azure Cloud Computing Services + Small Project
+
+## Architecture
+
+![Alt text](image.png)
 
 ## System requirements
 
@@ -21,7 +25,7 @@ Discovering Microsoft azure cloud computing services + Small project
 Once the dependencies are installed, you can run npm start to start the application. 
 You will then be able to access it at localhost:3000 via HTTP request.
 
-## Manipulation
+## Manipulation (Part 1 : Discovery)
 
 ### [Part I : Create A VM](manip/CreateVM.md)
 
@@ -43,4 +47,4 @@ You will then be able to access it at localhost:3000 via HTTP request.
 
 ### [Part X : Set Up Auto-Scaling](manip/AutoScaling.md)
 
-
+## Manipulation (Part 2 : Small Project)

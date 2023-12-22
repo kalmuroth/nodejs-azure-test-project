@@ -28,3 +28,19 @@ You will then be able to access it at localhost:3000 via HTTP request.
 ### [Part II : Create A Bucket (+ Static Website)](manip/CreateBucket.md)
 
 ### [Part III : Deploy a Web App (NodeJS)](manip/DeployApp.md)
+
+### [Part IV : Create a SQL Database (MongoDB)](manip/CreateDB.md)
+
+### [Part V : Simple Azure Function (Third Party API Call)](manip/CreateFunction.md)
+
+### [Part VI : Set Up a Networking ressource](manip/CreateNetwork.md)
+
+### [Part VII : Configure Monitoring and Logging](manip/Monitoring.md) 
+
+### [Part VIII : Implement Azure Identity by creating a simple dev role](manip/IdentityRole.md)
+
+### [Part IX : Create a personalized Resource Group](manip/CreateGroup.md)
+
+### [Part X : Set Up Auto-Scaling](manip/AutoScaling.md)
+
+
